@@ -1,10 +1,5 @@
 import "./globals.css";
 
-export const metadata = {
-  title: "Uygun Arabam",
-  description: "En uygun araç ilanları",
-};
-
 export default function RootLayout({
   children,
 }: {
