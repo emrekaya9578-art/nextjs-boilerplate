@@ -9,21 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-  "next": "latest",
-  "react": "latest",
-  "react-dom": "latest",
-  "@supabase/supabase-js": "latest",
-  "@tailwindcss/postcss": "latest",
-  "tailwindcss": "latest",
-  "lucide-react": "latest"
-},
-  "devDependencies": {
-    "typescript": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest"
+    "next": "canary",
+    "react": "rc",
+    "react-dom": "rc",
+    "@supabase/supabase-js": "latest",
+    "tailwindcss": "next",
+    "@tailwindcss/postcss": "next",
+    "lucide-react": "latest"
   }
 }
