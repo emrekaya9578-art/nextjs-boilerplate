@@ -5,16 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "canary",
-    "react": "rc",
-    "react-dom": "rc",
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "@supabase/supabase-js": "latest",
-    "tailwindcss": "next",
-    "@tailwindcss/postcss": "next",
-    "lucide-react": "latest"
+    "lucide-react": "latest",
+    "tailwindcss": "3.4.1",
+    "postcss": "8.4.38",
+    "autoprefixer": "10.4.19"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25"
   }
 }
